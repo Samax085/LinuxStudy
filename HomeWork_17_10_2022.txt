@@ -1,0 +1,10 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -7 >> /tmp/file.txt
+   2 chmod g+w /tmp/file.txt
+   3 chmod u-r /tmp/file.txt
+   4 chmod o+x /tmp/file.txt
+   5 export NAME=Samax
+   6 export VAR=Cool-IT
+   7 echo $NAME $VAR >> /tmp/file.txt
+   8 nano /tmp/file.txt 
+   9 history > history.txt
